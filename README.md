@@ -1,7 +1,7 @@
 # Curryrs
 
 Curryrs (a play on the name of Haskell Curry, rs for Rust libraries, and
-it's pronunciation couriers) is a library for providing easy to use bindings
+its pronunciation couriers) is a library for providing easy to use bindings
 between Rust and Haskell Code. Given the type safety inherent in both
 languages Curryrs seeks to bridge the gap between the two languages by
 providing an interface between the two that makes writing FFI code
@@ -13,7 +13,7 @@ To run the test suite you'll need gcc.
 ## Project Status
 
 This library used to not work due to some linking issues. It's not working still
-right now in it's current state but a fix is on the way see [here](https://github.com/mgattozzi/curryrs/issues/20)
+right now in its current state but a fix is on the way see [here](https://github.com/mgattozzi/curryrs/issues/20)
 for more details!
 
 ## Installation
@@ -25,7 +25,7 @@ In your Rust project in Cargo.toml:
 curryrs = "^0.2.0"
 ```
 
-In your Haskell project in it's cabal file:
+In your Haskell project in its cabal file:
 
 ```cabal
 build-depends: curryrs >= 0.2.0 < 0.3.0
